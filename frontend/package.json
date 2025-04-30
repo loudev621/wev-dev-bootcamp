@@ -23,8 +23,12 @@
   "eslintConfig": {
     "extends": [
       "react-app",
-      "react-app/jest"
+      "react-app/jest",
+      "plugin:prettier/recommended"
     ]
+  },
+  "prettier": {
+    "singleQuote": true
   },
   "browserslist": {
     "production": [
@@ -41,6 +45,9 @@
   "devDependencies": {
     "@babel/eslint-parser": "^7.27.0",
     "eslint": "^9.25.1",
-    "eslint-plugin-react": "^7.37.5"
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-plugin-prettier": "^5.2.6",
+    "eslint-plugin-react": "^7.37.5",
+    "prettier": "^3.5.3"
   }
 }
